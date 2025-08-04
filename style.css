@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +18,6 @@ body {
     padding: 0 20px;
 }
 
-/* Header Styles */
 .header {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
@@ -94,7 +93,6 @@ body {
     transition: 0.3s ease;
 }
 
-/* Hero Section */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -187,7 +185,6 @@ body {
     color: white;
 }
 
-/* About Section */
 .about {
     padding: 5rem 0;
     background: #f8f9fa;
@@ -284,7 +281,6 @@ body {
     color: white;
 }
 
-/* Services Section */
 .services {
     padding: 5rem 0;
     background: white;
@@ -338,7 +334,6 @@ body {
     line-height: 1.6;
 }
 
-/* Contact Section */
 .contact {
     padding: 5rem 0;
     background: #f8f9fa;
@@ -418,7 +413,6 @@ body {
     min-height: 120px;
 }
 
-/* Footer */
 .footer {
     background: #2c3e50;
     color: white;
@@ -477,7 +471,6 @@ body {
     color: rgba(255, 255, 255, 0.7);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .hamburger {
         display: flex;
@@ -610,7 +603,6 @@ body {
     }
 }
 
-/* Animation for hamburger menu */
 .hamburger.active span:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
 }
@@ -621,4 +613,5 @@ body {
 
 .hamburger.active span:nth-child(3) {
     transform: rotate(-45deg) translate(7px, -6px);
+
 } 
